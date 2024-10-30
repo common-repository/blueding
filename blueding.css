@@ -1,0 +1,30 @@
+.blueding_zone{
+    border:solid 1px black;
+    padding: 5px;
+}
+.blueding_zone:hover .blueding_links{
+    display:block;
+}
+.blueding_zone:hover .blueding_images{
+    display:block;
+}
+.blueding_title{
+    margin-bottom:5px;
+}
+.blueding_title img{
+    vertical-align:middle;
+}
+.blueding_images{
+    display:none;
+}
+.blueding_images a img{
+    border-width:0px;
+    width:20%;
+    height:20%;
+    margin-right:10px;
+}
+.blueding_links{
+    font-size:80%;
+    display:none;
+}
+
